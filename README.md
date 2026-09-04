@@ -115,6 +115,11 @@ index fff9bb2..6d386e9 100644
 
 How does this `git status` differ from the one in **1.2**?
 
+```text
+1.2's git status references that there is nothing to commit because the only changes have happened to untracked files.
+1.5's git status complains instead that no new changes have been staged in the currently tracked files. 
+```
+
 ### 1.6 Git command reflections
 
 In one or two sentences each, what does each command do?
