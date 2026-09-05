@@ -140,7 +140,9 @@ In one or two sentences each, what does each command do?
 In your own words:
 
 - How does the nested-loop approach check for a duplicate?
+    The nested-loop approach uses incrementing variables to compare every pair of elements in the array, returning true if it finds a matching pair.
 - How does the set-based approach check for a duplicate?
+    The set-based approach checks for duplicates by attempting to add every element into a HashSet, which cannot contain duplicate entries. It returns true to indicate a match if the HashMap ends up being shorter than the original array.
 - What is the runtime and memory trade-off of each?
 
 ### 1.9 Pull request merge options
