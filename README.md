@@ -127,11 +127,13 @@ In one or two sentences each, what does each command do?
 - `git init` creates a new git repository in the current working directory.
 - `git status` shows the files that have been modified and staged for commit.
 - `git add` adds a file or files to the next commit.
-- `git commit` commits every change staged for commitment through `git add`.
-- `git log`
-- `git diff`
+- `git commit` commits every change staged for commit through `git add`.
+- `git log` shows all of the previous commits.
+- `git diff` shows the difference between all of the changes to a repo and the staged changes.
 
 ### 1.7 Repository link
+
+<https://github.com/raine-y/lab03-exercises>
 
 ### 1.8 Comparing approaches
 
