@@ -142,13 +142,17 @@ In your own words:
 - How does the nested-loop approach check for a duplicate?
     The nested-loop approach uses incrementing variables to compare every pair of elements in the array, returning true if it finds a matching pair.
 - How does the set-based approach check for a duplicate?
-    The set-based approach checks for duplicates by attempting to add every element into a HashSet, which cannot contain duplicate entries. It returns true to indicate a match if the HashMap ends up being shorter than the original array.
+    The set-based approach checks for duplicates by attempting to add every element into a HashSet, which cannot contain duplicate entries. It returns true to indicate a match if the HashSet ends up being shorter than the original array.
 - What is the runtime and memory trade-off of each?
+    While the nested-loop approach is much slower as it checks every possible pair it uses little to no memory besides the original input. This is in contrast to the set-based approach which is much faster but effectively doubles the amount of memory the program uses by creating a copy of the datapoints. 
 
 ### 1.9 Pull request merge options
 
 In your own words, what does each GitHub merge option do?
 
 - Create a merge commit
+    Adds all commits from your branch into the main branch as is.
 - Squash and merge
+    "Squashes" every commit into one commit and adds into the main branch.
 - Rebase and merge
+    Adds the commits on main as if they were only ever on main, chronologically... (doubt)
