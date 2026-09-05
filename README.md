@@ -124,10 +124,10 @@ How does this `git status` differ from the one in **1.2**?
 
 In one or two sentences each, what does each command do?
 
-- `git init`
-- `git status`
-- `git add`
-- `git commit`
+- `git init` creates a new git repository in the current working directory.
+- `git status` shows the files that have been modified and staged for commit.
+- `git add` adds a file or files to the next commit.
+- `git commit` commits every change staged for commitment through `git add`.
 - `git log`
 - `git diff`
 
